@@ -1,0 +1,53 @@
+@media screen and (max-width: 700px) {
+    
+    header .container {
+        display: flex;
+        flex-direction: column;
+    }
+        .botao {
+            margin-top: 5px;
+            width: 300px;
+            font-size: 10px;
+        
+    }
+    .titulo {
+        font-size: 70px;
+        
+    }
+
+    .descricao {
+        font-size: 12px;
+        width: 80%;   
+        
+    }
+
+    #fonte-encanto {
+        font-size: 20px;
+        line-height: 24px;     
+    }
+    .botao1 {
+        padding: 8px 20px;
+        font-size: 14px;
+        
+    }
+    .botao2 {
+        padding: 8px 20px;
+        font-size: 14px;
+    }
+
+    #botao-inscrever  {
+        margin-left: 80px;
+        margin-top: 10px;
+      }
+}
+
+@media screen and (min-width: 1000px){
+
+    .filme-principal {
+        height: 620px;
+        background-size: cover ;
+    }
+    .descricao {
+        width: 50%;
+    }
+}

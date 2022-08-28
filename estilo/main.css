@@ -1,0 +1,269 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Inspiration&family=Monofett&family=Mystery+Quest&family=Quattrocento&family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+:root{   
+    --vermelho: #E50914;
+    --azul: #191970;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*elementos base */
+
+body {
+    background-image: url(../img/blue.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Sarala', sans-serif;
+    color: white;
+}
+img {
+    height: 38px;
+    width: 28px;
+}
+.poster {
+    background: linear-gradient(rgba(0,0,0,.50), rgba(0,0,0,.50));
+    background: url('https://s2.glbimg.com/2C0hMRuCY_7NfDPjby4_Bjmq8Nc=/e.glbimg.com/og/ed/f/original/2018/03/22/avengers-infinity-war-official-poster-2018-4o.jpg');
+    background-size: cover;
+}
+
+header .container-poster {
+    
+    display: flex;
+    flex-direction: row;
+    align-items: left;
+    padding-top: 20px;
+    justify-content: left;
+    padding-left: 60px;
+}
+
+header .logo {
+    margin-left: 5px;
+    margin-right: 40px;
+    color: var(--vermelho);
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+}
+
+header nav a, header nav img {
+
+    text-decoration: none;
+    color: white;
+    font-weight: 500;
+    margin-right: 10px;
+    text-shadow: #000 1px 0.5px 1px;
+    
+}
+#icone {
+    display: inline-block;
+    
+}
+.topo-direito {
+    padding-left: 45%;
+    padding-right: 10px ;
+    }
+
+header nav a:hover {
+    color: #AAA;
+   
+}
+header nav a::selection {
+    background-color: #a9d1f1;
+}
+/*filme principal*/
+
+.filme-principal {
+    
+    font-size: 16px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    padding-left: 60px;
+  
+}
+
+
+.filme-principal .descricao {
+    
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 540;
+    line-height: 30px ;
+    color: white;
+    text-shadow: #000 1px 1px 1px;
+  
+}
+
+.titulo {
+    margin-top: 10%;
+    font-size: 90px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: antiquewhite;
+
+}
+
+.botao1 {
+    background-color: rgba(117, 115, 223, 0.5);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 30px;
+    margin-right: 5px;
+    font-size: 20px;
+    margin-bottom: 50px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao1:hover{
+    background-color: rgba(234, 202, 236, 0.5);
+    color: black;
+    transform: translateY(-3px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+   
+}
+
+.botao2 {
+    background-color: rgba(234, 202, 236, 0.5);
+    border: none;
+    border-radius: 5px;
+    color: black;
+    padding: 15px 30px;
+    margin-right: 5px;
+    font-size: 20px;
+    cursor: pointer;
+    transition: .3s ease all;
+}
+
+.botao2:hover{
+    background-color: rgba(178, 167, 179, 0.5);
+    color: white;
+    transform: translateY(-3px);
+   
+}
+.botao1 i {
+    margin-right: 8px;
+}
+.botao2 i {
+    margin-right: 5px;
+}
+
+
+.container {
+    margin-left: 20px;
+}
+.filme-principal  .container {
+    width: 80%;
+}
+
+.box-filme {
+    height: 30%;
+    width: 10%;
+    display: block;
+    cursor: pointer;
+}
+
+.carrosel-filmes {
+    margin-left: 20px;
+}
+
+.filme-genero {
+    margin-bottom: 5px;
+    font-family: 'Sarala', sans-serif;
+    padding-top: 10px;
+    font-size: 18px;
+    color: rgb(180, 176, 180);
+}
+
+footer a {
+    color: rgb(116, 108, 108);
+    text-decoration: none;
+}
+
+footer a:hover {
+ color: rgb(235, 153, 238);
+}
+
+#links-menu {
+    font-size: 10px;
+}
+
+#menu-footer  {
+  margin-bottom: 30px;
+}
+
+#receber-email {
+    padding-left: 30px;
+    
+}
+#cadastro {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#botao-inscrever:hover {
+    background-color: rgb(93, 214, 198);
+}
+
+.container-menu {
+    margin-bottom: 30px;
+    width: 50%;
+  
+}
+
+.cadastrar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+ 
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#receber-email {
+ color: white;
+
+}
+
+input {
+    width: 400px;
+    border-radius: 17px;
+    height: 40px;
+    padding-left: 15px;
+    color: black;
+    font-size: 24px;
+    margin-left: 10px;
+ 
+}
+
+input::placeholder {
+    
+    color: rgb(30, 28, 46);
+}
+
+#botao {
+    background-color: transparent;
+    border: 2px solid rgb(117, 172, 194);
+    color: aliceblue;
+    width: 140px;
+    border-radius: 5px;
+    height: 40px;
+    font-weight: bold;
+    margin-left: 10px;
+}
+#botao:hover {
+    background-color: rgb(117, 172, 194);    
+    color: rgb(47, 68, 87);
+    transform: scale(1.1);
+    transition: all 0.5s;
+    border: none;
+}
